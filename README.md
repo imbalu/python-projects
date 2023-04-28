@@ -1,1 +1,1 @@
-In this code 3 hours live location data of ISS space station which is taken from "http://api.open-notify.org/iss-now.json" is stored in mongodb using simple python code. The total of 10800 collections of data is inserted in mongodb server with this python code.
+In this code 3 hours live location data of ISS space station which is taken from "http://api.open-notify.org/iss-now.json" is stored in mongodb using simple python code. The total of 10800 collections of data is inserted into mongodb server with this code.

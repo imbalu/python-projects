@@ -9,8 +9,8 @@ import json
 conn = pymongo.MongoClient("mongodb://balu:balakrishna@ac-mpkatov-shard-00-00.v63vj7u.mongodb.net:27017,ac-mpkatov-shard-00-01.v63vj7u.mongodb.net:27017,ac-mpkatov-shard-00-02.v63vj7u.mongodb.net:27017/?ssl=true&replicaSet=atlas-do4334-shard-0&authSource=admin&retryWrites=true&w=majority")
 
 
-database = conn["Satellite"]        # Created a database - Satellite 
-collection = database["ISS"]        # Created a collection - ISS in satellite database
+database = conn["Satellite"]        # Created a database named Satellite 
+collection = database["ISS"]        # Created a collection named ISS in satellite database
 
 
 for i in range(10800):        # To collect data of around 3 hours. We use "for" loop (60*60*3 = 10800)

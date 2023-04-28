@@ -21,8 +21,3 @@ for i in range(10800):        # To collect data of around 3 hours. We use "for" 
     
     
     
-    
-    
-    
-    
-    

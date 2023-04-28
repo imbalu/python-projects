@@ -25,3 +25,11 @@ for i in range(10800):        # To collect data of around 3 hours. We use "for" 
   data = url.json()       # Collected data is stored in json format
   collection.insert_one(data)     #In each iteration the data is inserted into mongodb server 
   time.sleep(1)         # 1Sec delay is given so the loop halts for a second and run again
+    
+    
+    
+    
+    
+    
+    
+    
